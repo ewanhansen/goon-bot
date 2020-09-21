@@ -52,4 +52,4 @@ client.on('message', message => {
 //goonsquad role id: 555854429161783298
 //member role id: 701252093402415188
 //this stays at the bottom
-client.login('no sir not today');
+client.login('NzA2MTcyMzMxNzQyOTg2Mjkw.Xq2YOw.YP7y4_cJotzeYF0bg16N_emchJw');
