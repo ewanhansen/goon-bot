@@ -3,7 +3,8 @@ module.exports = {
     name: 'ping',
     description: 'Basic ping command.',
     execute(message, args) {
-        //command code would go here
-        message.channel.send('Pong, bitch.');
+        //TODO: expand to embed later
+        let ping = Date.now() - message.createdTimestamp + " ms ";
+        message.channel.send('Pong! Took me ' + ping + 'to get back here.');
     }
 }
